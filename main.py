@@ -200,16 +200,18 @@ class Recipe_book:
             print("Invalid option! Please enter a number.")
 
 
+    
     def view_queue(self):
         print("\n========== Cooking Queue ==========")
 
         if len(self.recipe_queue) == 0:
             print("The queue is empty.")
         else:
-            for i, recipe_name in enumerate(self.recipe_queue, start=1):
-                print(f"{i}. {recipe_name}")
+            for i, recipe in enumerate(self.recipe_queue, start=1):
+                print(f"{i}. {recipe['name']}")
 
         print("===================================")
+
 
 
 
