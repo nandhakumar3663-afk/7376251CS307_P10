@@ -227,16 +227,14 @@ class Recipe_book:
 
 recipe = Recipe_book()
 
-print("\n============ Recipe Book ============")
-print("1. View Recipe Menu")
-print("2. Select a Recipe")
-print("3. View Cooking Queue")
-print("4. Prepare Next Recipe")
-print("5. Exit")
-print("=====================================")
-
-
 while True:
+    print("\n============ Recipe Book ============")
+    print("1. View Recipe Menu")
+    print("2. Select a Recipe")
+    print("3. View Cooking Queue")
+    print("4. Prepare Next Recipe")
+    print("5. Exit")
+    print("=====================================")
 
     try:
         val = int(input("Enter the option (1-5): "))
