@@ -11,15 +11,6 @@ Project Title: Recipe Book
 
 Recipe Book is a simple Python program that displays recipes and their cooking instructions. Users can select a recipe, view its ingredients, and add it to a cooking queue.
 
-## Features
-
-- View the list of available recipes.
-- View recipe ingredients and instructions.
-- Add recipes to the cooking queue.
-- View recipes in the queue.
-- Prepare the next recipe in the queue.
-- Handle invalid menu inputs.
-
 ## Available Recipes
 
 1. Lemon Juice
@@ -27,15 +18,6 @@ Recipe Book is a simple Python program that displays recipes and their cooking i
 3. Coffee
 4. Tomato Rice
 5. Chocolate Milkshake
-
-## Technologies Used
-
-- Python 3
-- Classes and objects
-- Lists and dictionaries
-- Loops and conditional statements
-- Exception handling
-- Queue operations
 
 ## Project Files
 
