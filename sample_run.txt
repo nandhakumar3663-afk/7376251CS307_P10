@@ -1,0 +1,294 @@
+============ Recipe Book ============
+1. View Recipe Menu
+2. Select a Recipe
+3. View Cooking Queue
+4. Prepare Next Recipe
+5. Exit
+=====================================
+Enter the option (1-5): 1
+
+============== Menu ================
+1. Lemon Juice
+2. Tea
+3. Coffee
+4. Tomato Rice
+5. Chocolate Milkshake
+
+============ Recipe Book ============
+1. View Recipe Menu
+2. Select a Recipe
+3. View Cooking Queue
+4. Prepare Next Recipe
+5. Exit
+=====================================
+Enter the option (1-5): 2
+
+
+============== Menu ================
+1. Lemon Juice
+2. Tea
+3. Coffee
+4. Tomato Rice
+5. Chocolate Milkshake
+Enter the recipe number (1-5): 1
+
+========== Recipe Details ==========
+Recipe Name: Lemon Juice
+Preparation Time: 5 minutes
+Cooking Time: 0 minutes
+Servings: 1 glass
+
+Ingredients:
+- 1 medium lemon
+- 250 ml cold water
+- 2 teaspoons sugar
+- A pinch of salt (optional)
+- Ice cubes (optional)
+
+Step-by-Step Instructions:
+1. Wash the lemon thoroughly with water.
+2. Cut the lemon into two halves.
+3. Squeeze the lemon and remove the seeds.
+4. Pour 250 ml of cold water into a glass.
+5. Add 2 teaspoons of sugar and stir well.
+6. Add a pinch of salt if desired.
+7. Add ice cubes and serve.
+====================================
+
+Add this recipe to the cooking queue? (y/n): y
+Lemon Juice added to the queue.
+
+============ Recipe Book ============
+1. View Recipe Menu
+2. Select a Recipe
+3. View Cooking Queue
+4. Prepare Next Recipe
+5. Exit
+=====================================
+Enter the option (1-5): 2
+
+
+============== Menu ================
+1. Lemon Juice
+2. Tea
+3. Coffee
+4. Tomato Rice
+5. Chocolate Milkshake
+Enter the recipe number (1-5): 4
+
+========== Recipe Details ==========
+Recipe Name: Tomato Rice
+Preparation Time: 10 minutes
+Cooking Time: 20-25 minutes
+Servings: 2 people
+
+Ingredients:
+- 1 cup raw rice
+- 3 medium tomatoes, chopped
+- 1 medium onion, sliced
+- 1 green chilli
+- 1 teaspoon ginger-garlic paste
+- 2 tablespoons cooking oil
+- 1/2 teaspoon mustard seeds
+- 1/2 teaspoon turmeric powder
+- 1 teaspoon chilli powder
+- 1/2 teaspoon garam masala (optional)
+- A few curry leaves
+- Salt to taste
+- 1 3/4 to 2 cups water, as needed
+- Coriander leaves (optional)
+
+Step-by-Step Instructions:
+1. Wash the rice two or three times and drain the water.
+2. Chop the tomatoes and slice the onion.
+3. Heat oil in a pot or pressure cooker.
+4. Add mustard seeds and allow them to splutter.
+5. Add curry leaves, onion and green chilli.
+6. Saute until the onion becomes soft.
+7. Add ginger-garlic paste and cook for one minute.
+8. Add chopped tomatoes and cook until soft.
+9. Add turmeric powder, chilli powder, garam masala and salt.
+10. Add the washed rice and mix gently.
+11. Pour in the appropriate amount of water.
+12. Cover and cook until the rice is tender.
+13. Release pressure safely if using a pressure cooker.
+14. Let the rice rest for 5 minutes.
+15. Garnish with coriander leaves and serve.
+====================================
+
+Add this recipe to the cooking queue? (y/n): n
+Recipe not added to the queue.
+
+============ Recipe Book ============
+1. View Recipe Menu
+2. Select a Recipe
+3. View Cooking Queue
+4. Prepare Next Recipe
+5. Exit
+=====================================
+Enter the option (1-5): 2
+
+
+============== Menu ================
+1. Lemon Juice
+2. Tea
+3. Coffee
+4. Tomato Rice
+5. Chocolate Milkshake
+Enter the recipe number (1-5): 5
+
+========== Recipe Details ==========
+Recipe Name: Chocolate Milkshake
+Preparation Time: 5 minutes
+Cooking Time: 0 minutes
+Servings: 1 large glass
+
+Ingredients:
+- 250 ml chilled milk
+- 2 tablespoons chocolate syrup
+- 1 tablespoon cocoa powder
+- 1-2 teaspoons sugar (optional)
+- 1 scoop chocolate or vanilla ice cream (optional)
+- Chocolate shavings (optional)
+
+Step-by-Step Instructions:
+1. Make sure the blender jar is clean.
+2. Pour chilled milk into the blender.
+3. Add chocolate syrup and cocoa powder.
+4. Add sugar if desired.
+5. Add ice cream for a creamier texture, if desired.
+6. Close the blender lid securely.
+7. Blend for 30-45 seconds until smooth.
+8. Drizzle chocolate syrup inside a glass.
+9. Pour the milkshake into the glass.
+10. Garnish with chocolate shavings and serve immediately.
+====================================
+
+Add this recipe to the cooking queue? (y/n): y
+Chocolate Milkshake added to the queue.
+
+============ Recipe Book ============
+1. View Recipe Menu
+2. Select a Recipe
+3. View Cooking Queue
+4. Prepare Next Recipe
+5. Exit
+=====================================
+Enter the option (1-5): 3
+
+========== Cooking Queue ==========
+1. Lemon Juice
+2. Chocolate Milkshake
+===================================
+
+============ Recipe Book ============
+1. View Recipe Menu
+2. Select a Recipe
+3. View Cooking Queue
+4. Prepare Next Recipe
+5. Exit
+=====================================
+Enter the option (1-5): 4
+
+========== Prepare Next Recipe ==========
+
+Now preparing: Lemon Juice
+Preparation Time: 5 minutes
+Cooking Time: 0 minutes
+Servings: 1 glass
+
+Ingredients:
+- 1 medium lemon
+- 250 ml cold water
+- 2 teaspoons sugar
+- A pinch of salt (optional)
+- Ice cubes (optional)
+
+Step-by-Step Instructions:
+1. Wash the lemon thoroughly with water.
+2. Cut the lemon into two halves.
+3. Squeeze the lemon and remove the seeds.
+4. Pour 250 ml of cold water into a glass.
+5. Add 2 teaspoons of sugar and stir well.
+6. Add a pinch of salt if desired.
+7. Add ice cubes and serve.
+
+Recipe preparation instructions completed!
+Recipe removed from the queue.
+=========================================
+
+============ Recipe Book ============
+1. View Recipe Menu
+2. Select a Recipe
+3. View Cooking Queue
+4. Prepare Next Recipe
+5. Exit
+=====================================
+Enter the option (1-5): 4
+
+========== Prepare Next Recipe ==========
+
+Now preparing: Chocolate Milkshake
+Preparation Time: 5 minutes
+Cooking Time: 0 minutes
+Servings: 1 large glass
+
+Ingredients:
+- 250 ml chilled milk
+- 2 tablespoons chocolate syrup
+- 1 tablespoon cocoa powder
+- 1-2 teaspoons sugar (optional)
+- 1 scoop chocolate or vanilla ice cream (optional)
+- Chocolate shavings (optional)
+
+Step-by-Step Instructions:
+1. Make sure the blender jar is clean.
+2. Pour chilled milk into the blender.
+3. Add chocolate syrup and cocoa powder.
+4. Add sugar if desired.
+5. Add ice cream for a creamier texture, if desired.
+6. Close the blender lid securely.
+7. Blend for 30-45 seconds until smooth.
+8. Drizzle chocolate syrup inside a glass.
+9. Pour the milkshake into the glass.
+10. Garnish with chocolate shavings and serve immediately.
+
+Recipe preparation instructions completed!
+Recipe removed from the queue.
+=========================================
+
+============ Recipe Book ============
+1. View Recipe Menu
+2. Select a Recipe
+3. View Cooking Queue
+4. Prepare Next Recipe
+5. Exit
+=====================================
+Enter the option (1-5): 4
+
+========== Prepare Next Recipe ==========
+No recipes in the queue.
+=========================================
+
+============ Recipe Book ============
+1. View Recipe Menu
+2. Select a Recipe
+3. View Cooking Queue
+4. Prepare Next Recipe
+5. Exit
+=====================================
+Enter the option (1-5): 3
+
+========== Cooking Queue ==========
+The queue is empty.
+===================================
+
+============ Recipe Book ============
+1. View Recipe Menu
+2. Select a Recipe
+3. View Cooking Queue
+4. Prepare Next Recipe
+5. Exit
+=====================================
+Enter the option (1-5): 5
+Thank you for using the Recipe Book!
