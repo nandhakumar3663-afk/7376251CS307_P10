@@ -178,7 +178,7 @@ class Recipe_book:
             ).lower()
 
             if choice == "y":
-                self.recipe_queue.append(selected_recipe["name"])
+                self.recipe_queue.append(selected_recipe)
                 print(selected_recipe["name"], "added to the queue.")
             elif choice == "n":
                 print("Recipe not added to the queue.")
@@ -212,17 +212,34 @@ class Recipe_book:
         print("===================================")
 
 
+
     def prepare_next(self):
         print("\n========== Prepare Next Recipe ==========")
 
         if len(self.recipe_queue) == 0:
             print("No recipes in the queue.")
+
         else:
             next_recipe = self.recipe_queue.pop(0)
-            print("Next recipe to prepare:", next_recipe)
+
+            print("\nNow preparing:", next_recipe["name"])
+            print("Preparation Time:", next_recipe["preparation_time"])
+            print("Cooking Time:", next_recipe["cooking_time"])
+            print("Servings:", next_recipe["servings"])
+
+            print("\nIngredients:")
+            for ingredient in next_recipe["ingredients"]:
+                print("-", ingredient)
+
+            print("\nStep-by-Step Instructions:")
+            for i, step in enumerate(next_recipe["steps"], start=1):
+                print(f"{i}. {step}")
+
+            print("\nRecipe preparation instructions completed!")
             print("Recipe removed from the queue.")
 
         print("=========================================")
+
 
 
 recipe = Recipe_book()
