@@ -1,5 +1,3 @@
-# Recipe Book
-# Core Python project using simple text files.
 
 RECIPES_FILE = "recipes.txt"
 INGREDIENTS_FILE = "ingredients.txt"
@@ -7,10 +5,8 @@ STEPS_FILE = "steps.txt"
 
 
 def load_recipes():
-    """Read the three files and join their information together."""
     recipes = []
 
-    # Load the main recipe details.
     try:
         file = open(RECIPES_FILE, "r", encoding="utf-8")
         lines = file.readlines()
@@ -40,7 +36,6 @@ def load_recipes():
             except ValueError:
                 print("Skipping an invalid recipe record.")
 
-    # Load ingredients and put each one in its recipe.
     try:
         file = open(INGREDIENTS_FILE, "r", encoding="utf-8")
         lines = file.readlines()
@@ -72,7 +67,6 @@ def load_recipes():
                 })
                 break
 
-    # Load cooking steps and put each one in its recipe.
     try:
         file = open(STEPS_FILE, "r", encoding="utf-8")
         lines = file.readlines()
@@ -242,7 +236,6 @@ def add_recipe(recipes):
         print("A recipe needs at least one step.")
         return
 
-    # Make the next ID, such as R04.
     highest_number = 0
     for recipe in recipes:
         number = recipe["id"].replace("R", "")
@@ -357,7 +350,7 @@ def what_can_i_cook(recipes):
 
 
 def sort_by_prep_time(recipes):
-    # sorted() puts the shortest preparation time first.
+
     sorted_recipes = sorted(recipes, key=lambda item: item["prep"])
 
     print("\n--- RECIPES BY PREPARATION TIME ---")
