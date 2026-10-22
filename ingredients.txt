@@ -1,0 +1,13 @@
+RecipeID|Quantity|Unit|Ingredient
+R01|1|cup|rice
+R01|2|pcs|tomato
+R01|2|tbsp|oil
+R01|1|pcs|onion
+R02|1|cup|rava
+R02|1|pcs|onion
+R02|1|pcs|tomato
+R02|2|tbsp|oil
+R03|4|slices|bread
+R03|1|pcs|tomato
+R03|1|pcs|onion
+R03|2|tbsp|butter

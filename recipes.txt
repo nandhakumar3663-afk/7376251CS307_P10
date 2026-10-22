@@ -1,0 +1,4 @@
+RecipeID|Name|Cuisine|PrepMinutes|Servings
+R01|Tomato Rice|South Indian|30|2
+R02|Onion Uttapam|South Indian|20|2
+R03|Vegetable Sandwich|Indian|15|2

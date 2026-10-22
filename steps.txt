@@ -1,0 +1,10 @@
+RecipeID|StepNo|Instruction
+R01|1|Cook the rice and let it cool.
+R01|2|Chop the tomato and onion.
+R01|3|Heat oil, saute the vegetables, then mix in the rice.
+R02|1|Mix rava with water to make a thick batter.
+R02|2|Chop the onion and tomato.
+R02|3|Spread batter on a hot pan, add vegetables, and cook both sides.
+R03|1|Slice the tomato and onion.
+R03|2|Spread butter on the bread.
+R03|3|Add the vegetables, assemble the sandwich, and serve.
